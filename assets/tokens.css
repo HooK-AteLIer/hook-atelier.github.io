@@ -1,0 +1,37 @@
+/* Hook Atelier — токены бренда. Источник правды: brand/brand.json.
+   Шрифты подключаются на странице:
+   https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500;1,700&display=swap */
+
+:root {
+  --c-bg: #F5EFE4;
+  --c-surface: #EBE2D2;
+  --c-text: #1B1517;
+  --c-muted: #5C514C;
+  --c-accent: #C02F1A;
+  --c-accent-2: #7A5A1E;
+  --f-display: "Playfair Display", "Times New Roman", Georgia, serif;
+  --f-text: "Golos Text", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --c-bg: #121012;
+    --c-surface: #1D191C;
+    --c-text: #F2EADC;
+    --c-muted: #B4A89A;
+    --c-accent: #FF5B3A;
+    --c-accent-2: #D8AA52;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --c-bg: #121012;
+  --c-surface: #1D191C;
+  --c-text: #F2EADC;
+  --c-muted: #B4A89A;
+  --c-accent: #FF5B3A;
+  --c-accent-2: #D8AA52;
+  color-scheme: dark;
+}
