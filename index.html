@@ -104,7 +104,10 @@
   }
   .tagline em { color: var(--c-accent); font-style: italic; }
   .lead { margin: 0; font-size: 17px; max-width: 30em; }
+  .lead p { margin: 0 0 10px; }
   .lead b { font-weight: 600; }
+  .lead .hello { font-family: var(--f-display); font-style: italic; font-weight: 700; font-size: 22px; color: var(--c-accent); margin-bottom: 6px; }
+  .lead .for { margin: 14px 0 0; padding-top: 12px; border-top: 1.5px dashed var(--c-accent-2); font-size: 14px; letter-spacing: .02em; color: var(--c-muted); }
 
   .contacts { display: grid; gap: 10px; }
   .btn {
@@ -255,7 +258,12 @@
 
     <p class="tagline rise d3">Внимание, <em>сшитое</em> по&nbsp;мерке</p>
 
-    <p class="lead rise d4">Страница, карточка на&nbsp;Картах и&nbsp;короткие видео в&nbsp;одном стиле — <b>под ключ и&nbsp;по&nbsp;фиксированной цене</b>. Для барбершопов и&nbsp;салонов, ремонта и&nbsp;мебели, клиник и&nbsp;экспертов. AI — ускоритель мастера, а&nbsp;не&nbsp;продукт.</p>
+    <div class="lead rise d4">
+      <p class="hello">Здравствуйте, рады вам!</p>
+      <p>Мы делаем так, чтобы ваше дело замечали и&nbsp;выбирали: страница, карточка на&nbsp;Яндекс Картах и&nbsp;короткие видео&nbsp;— в&nbsp;одном стиле, под&nbsp;ключ.</p>
+      <p>Работаем как для близких: бережно, честно и&nbsp;<b>по&nbsp;цене, которую называем сразу</b>. AI помогает нам успевать больше, а&nbsp;душу вкладываем сами.</p>
+      <p class="for">Барбершопы и&nbsp;салоны · ремонт и&nbsp;мебель · клиники · эксперты</p>
+    </div>
 
     <nav class="contacts rise d5" aria-label="Связь">
       <a class="btn main" href="mailto:shatskih_aa@mail.ru?subject=%D0%9E%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82">Обсудить проект</a>
